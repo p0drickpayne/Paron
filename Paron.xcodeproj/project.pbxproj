@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		950D04BD2417A60B00277004 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950D04BC2417A60B00277004 /* ProfilePage.swift */; };
+		951C09AE241A34B5005A5F80 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C09AD241A34B5005A5F80 /* SessionStore.swift */; };
 		95660D5C240EA1C400F30500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95660D5B240EA1C400F30500 /* AppDelegate.swift */; };
 		95660D5E240EA1C400F30500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95660D5D240EA1C400F30500 /* SceneDelegate.swift */; };
-		95660D60240EA1C400F30500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95660D5F240EA1C400F30500 /* ContentView.swift */; };
 		95660D62240EA1CE00F30500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95660D61240EA1CE00F30500 /* Assets.xcassets */; };
 		95660D65240EA1CE00F30500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95660D64240EA1CE00F30500 /* Preview Assets.xcassets */; };
 		95660D68240EA1CE00F30500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95660D66240EA1CE00F30500 /* LaunchScreen.storyboard */; };
+		95660D90241126E200F30500 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95660D8F241126E200F30500 /* LaunchScreen.swift */; };
+		95660D92241155CE00F30500 /* PearLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 95660D91241155CE00F30500 /* PearLogo.png */; };
+		957DCA3B2417E82800CBBA29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 957DCA3A2417E82800CBBA29 /* GoogleService-Info.plist */; };
+		95BC94A7241533F50021D2D4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BC94A6241533F50021D2D4 /* LoginScreen.swift */; };
+		95BC94AA241541E20021D2D4 /* Rockwell-Font in Resources */ = {isa = PBXBuildFile; fileRef = 95BC94A9241541E20021D2D4 /* Rockwell-Font */; };
+		FBED46400DEFB2F8E49A188E /* Pods_Paron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C92FD5C69F00611C1FDF59 /* Pods_Paron.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C7DE6714F9BB07E910A652B /* Pods-Paron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paron.debug.xcconfig"; path = "Target Support Files/Pods-Paron/Pods-Paron.debug.xcconfig"; sourceTree = "<group>"; };
+		950D04BC2417A60B00277004 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		951C09AD241A34B5005A5F80 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		95660D58240EA1C400F30500 /* Paron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95660D5B240EA1C400F30500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95660D5D240EA1C400F30500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95660D5F240EA1C400F30500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95660D61240EA1CE00F30500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95660D64240EA1CE00F30500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95660D67240EA1CE00F30500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95660D69240EA1CE00F30500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95660D8F241126E200F30500 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		95660D91241155CE00F30500 /* PearLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PearLogo.png; path = Assets.xcassets/PearLogo.png; sourceTree = "<group>"; };
+		957DCA3A2417E82800CBBA29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95BC94A6241533F50021D2D4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		95BC94A9241541E20021D2D4 /* Rockwell-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Rockwell-Font"; sourceTree = "<group>"; };
+		E9C92FD5C69F00611C1FDF59 /* Pods_Paron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BA7A08EA20ABAB4E5837C5 /* Pods-Paron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paron.release.xcconfig"; path = "Target Support Files/Pods-Paron/Pods-Paron.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBED46400DEFB2F8E49A188E /* Pods_Paron.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B268DD47575964CC2AC1D09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DE6714F9BB07E910A652B /* Pods-Paron.debug.xcconfig */,
+				F2BA7A08EA20ABAB4E5837C5 /* Pods-Paron.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		95660D4F240EA1C400F30500 = {
 			isa = PBXGroup;
 			children = (
+				95BC94A8241541BA0021D2D4 /* Fonts */,
+				95660D8F241126E200F30500 /* LaunchScreen.swift */,
+				95BC94A6241533F50021D2D4 /* LoginScreen.swift */,
+				950D04BC2417A60B00277004 /* ProfilePage.swift */,
 				95660D5A240EA1C400F30500 /* Paron */,
 				95660D59240EA1C400F30500 /* Products */,
+				8B268DD47575964CC2AC1D09 /* Pods */,
+				CF18BA499F8A7E2D89396579 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +90,12 @@
 			children = (
 				95660D5B240EA1C400F30500 /* AppDelegate.swift */,
 				95660D5D240EA1C400F30500 /* SceneDelegate.swift */,
-				95660D5F240EA1C400F30500 /* ContentView.swift */,
 				95660D61240EA1CE00F30500 /* Assets.xcassets */,
+				95660D91241155CE00F30500 /* PearLogo.png */,
 				95660D66240EA1CE00F30500 /* LaunchScreen.storyboard */,
 				95660D69240EA1CE00F30500 /* Info.plist */,
+				957DCA3A2417E82800CBBA29 /* GoogleService-Info.plist */,
+				951C09AD241A34B5005A5F80 /* SessionStore.swift */,
 				95660D63240EA1CE00F30500 /* Preview Content */,
 			);
 			path = Paron;
@@ -75,6 +109,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		95BC94A8241541BA0021D2D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95BC94A9241541E20021D2D4 /* Rockwell-Font */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CF18BA499F8A7E2D89396579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C92FD5C69F00611C1FDF59 /* Pods_Paron.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95660D6C240EA1CE00F30500 /* Build configuration list for PBXNativeTarget "Paron" */;
 			buildPhases = (
+				0D9E3EA5A6F26909290C98DC /* [CP] Check Pods Manifest.lock */,
 				95660D54240EA1C400F30500 /* Sources */,
 				95660D55240EA1C400F30500 /* Frameworks */,
 				95660D56240EA1C400F30500 /* Resources */,
+				07FFAFB7FA923A6E9E3FBF46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,22 +185,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BC94AA241541E20021D2D4 /* Rockwell-Font in Resources */,
+				95660D92241155CE00F30500 /* PearLogo.png in Resources */,
 				95660D68240EA1CE00F30500 /* LaunchScreen.storyboard in Resources */,
 				95660D65240EA1CE00F30500 /* Preview Assets.xcassets in Resources */,
 				95660D62240EA1CE00F30500 /* Assets.xcassets in Resources */,
+				957DCA3B2417E82800CBBA29 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07FFAFB7FA923A6E9E3FBF46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Paron/Pods-Paron-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Paron/Pods-Paron-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Paron/Pods-Paron-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D9E3EA5A6F26909290C98DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paron-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95660D54240EA1C400F30500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950D04BD2417A60B00277004 /* ProfilePage.swift in Sources */,
+				95660D90241126E200F30500 /* LaunchScreen.swift in Sources */,
+				951C09AE241A34B5005A5F80 /* SessionStore.swift in Sources */,
 				95660D5C240EA1C400F30500 /* AppDelegate.swift in Sources */,
 				95660D5E240EA1C400F30500 /* SceneDelegate.swift in Sources */,
-				95660D60240EA1C400F30500 /* ContentView.swift in Sources */,
+				95BC94A7241533F50021D2D4 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		95660D6D240EA1CE00F30500 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7DE6714F9BB07E910A652B /* Pods-Paron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.Paron;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.paron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,6 +402,7 @@
 		};
 		95660D6E240EA1CE00F30500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BA7A08EA20ABAB4E5837C5 /* Pods-Paron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,7 +413,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.Paron;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.paron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

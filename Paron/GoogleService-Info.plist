@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>976850162293-njveikr44a7lsr85ml0o4oj4trg9ij71.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.976850162293-njveikr44a7lsr85ml0o4oj4trg9ij71</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD-VYUX5nFLHUtxwbjKg1iUTNpZ_zVxljo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>976850162293</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jakob.paron</string>
+	<key>PROJECT_ID</key>
+	<string>paron-9814b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>paron-9814b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:976850162293:ios:ebd932716f501de6831e3c</string>
+	<key>DATABASE_URL</key>
+	<string>https://paron-9814b.firebaseio.com</string>
+</dict>
+</plist>
