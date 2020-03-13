@@ -10,21 +10,34 @@ import SwiftUI
 
 struct ProfilePage: View {
     //let loginScreen: LoginScreen
+    @EnvironmentObject var session: SessionStore
     
-    var name = ""
-    var email: String
+    func getUser() {
+        session.listen()
+    }
+    
+    //var name = ""
+    //var email: String
     
     var body: some View {
-        
-        VStack (alignment: .center){
-            Text(email)
+        Group {
+            if (session.session != nil){
+                Text("Welcome back user")
+                Button(action: session.signOut) {
+                    Text("Sign Out")
+                }
+            } else {
+                LoginScreen()
+            }
             
-        }
+        }.onAppear(perform: getUser)
     }
 }
-
+#if DEBUG
 struct ProfilePage_Previews: PreviewProvider {
     static var previews: some View {
-        ProfilePage(email: "tjo@gmail.nu")
+        //ProfilePage(email: "tjo@gmail.nu")
+        ProfilePage().environmentObject(SessionStore())
     }
 }
+#endif
